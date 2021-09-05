@@ -1,6 +1,8 @@
 .tag {
 	margin: 0;
 
+	cursor: pointer;
+
 	color: var(--black);
 
 	font-weight: normal;
