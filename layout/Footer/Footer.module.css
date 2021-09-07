@@ -1,0 +1,14 @@
+/*.footer {*/
+/*    display: grid;*/
+/*    gap: 40px;*/
+/*    grid-template-columns: 1fr auto auto 1fr 1fr;*/
+/*    grid-template-areas: "copyright . . link link";*/
+/*}*/
+
+/*.copyright {*/
+/*    grid-area: copyright;*/
+/*}*/
+
+/*.link {*/
+/*    grid-area: link;*/
+/*}*/
