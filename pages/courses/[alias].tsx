@@ -14,7 +14,7 @@ function Course({menu, page, products} : CourseProps) : JSX.Element {
 
     return (
         <div>
-            {products.length}
+            {products  && products.length}
         </div>
     );
 }
@@ -43,7 +43,7 @@ export const getStaticProps: GetStaticProps<CourseProps> = async ({params}:GetSt
     })
     const {data : page} = await axios.get<TopPageModel>(process.env.NEXT_PUBLICK_DOMAIN + '/api/top-page/byAlias/' + params.alias)
     const {data : products} = await axios.post<ProductModel[]>(process.env.NEXT_PUBLICK_DOMAIN + '/api/product/find/', {
-        categoty: page.category,
+        category: page.category,
         limit: 10
     })
 
