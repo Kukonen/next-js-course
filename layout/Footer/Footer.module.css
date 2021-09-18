@@ -1,13 +1,16 @@
 .footer {
 	display: grid;
-	grid-area: footer;
-	gap: 10 40px;
-	background-color: var(--primary);
-	grid-template-columns: 1fr auto auto;
-	color: var(--white);
+
 	padding: 25px 30px;
+
+	color: var(--white);
+	background-color: var(--primary);
+
 	font-size: 16px;
 	line-height: 16px;
+	grid-area: footer;
+	gap: 10 40px;
+	grid-template-columns: 1fr auto auto;
 }
 
 .copyright {
