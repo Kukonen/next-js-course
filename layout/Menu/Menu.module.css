@@ -42,6 +42,14 @@
 	line-height: 16px;
 }
 
+.secondLevelBlock {
+	display: none;
+}
+
+.secondLevelBlockOpened {
+	display: block;
+}
+
 .secondLevelBlock:last-child {
 	margin-bottom: 20px;
 }
@@ -53,7 +61,7 @@
 
 	cursor: pointer;
 
-	color: (--gray-dark);
+	color: var(--gray-dark);
 
 	font-size: 14px;
 	font-weight: 500;
